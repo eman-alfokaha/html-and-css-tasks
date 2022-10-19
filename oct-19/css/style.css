@@ -1,0 +1,22 @@
+.Headers{
+    font-size: 30px;
+        background-color: rgb(175, 212, 240);
+        color: rgb(125, 125, 236);
+    }
+    .interface
+    {
+        color: rgb(125, 125, 236);
+    
+    
+    }
+    #HCI{font-weight: 1000;}
+    .numbers{ color:  rgb(175, 212, 240);}
+    table {
+        border-collapse: collapse;
+        
+      }
+      .mid{padding: 180;}
+      h1{
+        text-transform: capitalize;
+       
+      }
