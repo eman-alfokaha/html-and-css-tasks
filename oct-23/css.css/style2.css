@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(230, 230, 172);
+}
+div p{
+    background-color: white;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed;
+
+}
+
+div p span{
+    background-color: rgb(217, 182, 105);
+}
+div p .span{
+    background-color: rgb(241, 155, 215);
+}
+.div{
+    color: red;
+
+}
+.div .pp{
+
+    border-width: 2px;
+    border-color: red;
+    border-style: dashed;
+}
+div{
+    width: 500px;
+    background-color: white;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed;
+margin: 40px;
+
+}

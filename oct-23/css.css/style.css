@@ -1,0 +1,14 @@
+p{
+    color: orange;
+}
+.text{
+    color: black;
+}
+.text span{
+   font-weight: bold;
+}
+div{
+    background-image: url("img.jpg");
+    color: white;
+
+}
