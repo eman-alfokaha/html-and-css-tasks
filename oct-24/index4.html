@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+ 
+  padding: 10px;
+}
+
+.grid-container > div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-end: span 5;
+  background-color: black;
+  height: 50px;
+}
+.item2 {
+  grid-column-end: span 3;
+  background-color: orange;
+  height: 400px;
+}
+.item3 {
+  grid-column-end: span 2;
+  background-color: green;
+  height: 400px;
+}
+.item4 {
+    
+  grid-column-end: span 5;
+  background-color: blue;
+  height: 150px;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="grid-container">
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3"></div>  
+  <div class="item4"></div>
+ 
+
+</body>
+</html>
