@@ -1,0 +1,38 @@
+#one{
+   
+    background-color: red;
+    
+    }
+
+#tow{
+
+   
+    background-color: yellow;
+}
+#three{
+    background-color: aqua;
+   
+}
+#four{
+    background-color: green;
+   
+}
+
+.div{
+
+    display: inline-block;
+margin: 85px;
+
+width: 200px;
+height: 200px;
+
+}
+
+@media only screen and (min-device-width:0px) and (max-device-width:480px){
+   #tow{background-color: darkmagenta;}
+
+}
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+    #tow{background-color: rgb(6, 233, 74);}
+
+}

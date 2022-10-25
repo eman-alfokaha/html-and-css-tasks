@@ -3,33 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task</title>
+    <title>Task3</title>
 
     <style>
- 
-.main{
+
+
+.div{
 
 background-color: burlywood;
-display: grid;
-height: 650px;
-
-font-size:70px  ;
-grid-template-columns: auto auto auto auto;
-/* grid-template-rows: auto auto auto; */
-padding: 10px;
-
+display: flex;
+height: 550px;
+font-size:50px  ;
 
 }
 
 div{
     color: white;
-    padding: 60px 0px;
-    text-align: center;
-    
+    flex-grow: 1;
+    width: 100%;
+text-align: center;
+margin: 5px 0px;
+
 }
 
 #one{
     background-color: green;
+    margin-left: 5px;
 }
 #tow{
     background-color: yellow;
@@ -54,23 +53,40 @@ div{
 }
 #nine{
     background-color: rgb(162, 93, 93);
-}
-#ten{
-    background-color: rgb(93, 162, 109);
+    margin-right: 5px;
 }
 
+
 @media only screen and (min-device-width:0px) and (max-device-width:480px){
-   .main{grid-template-columns: auto ;
-    height: 2500px;
-    
- } 
-}
+   
+   .div{flex-wrap: wrap;
+    background-color: burlywood;
+
+    padding: 5px;
+   }
+   div{margin: 0px;}
+
+   #one{margin-left: 0px;}
+   #nine{margin-right: 0px;}
+   
+} 
+
 @media only screen and (min-device-width:481px) and (max-device-width:768px){
-    .main{grid-template-columns: auto auto ;
-        height: 1250px;
-        border-bottom-width: 5px;
- } 
+   .div{flex-wrap: wrap;
+    margin-left: 175px;
+    padding: 5px;
+   
+   }
+div{margin: 0px;
+    width: 50%;
 }
+   #one{margin-left: 0px;}
+   #nine{margin-right: 0px;}
+  
+
+
+}
+
 
     </style>
 
@@ -78,7 +94,7 @@ div{
 </head>
 <body>
     
-<div class="main">
+<div class="div">
 <div id="one">1</div>
 <div id="tow">2</div>
 <div id="three">3</div>
@@ -88,9 +104,7 @@ div{
 <div id="seven">7</div>
 <div id="eight">8</div>
 <div id="nine">9</div>
-<div id="ten">10</div>
-<div id="eleven" style="background-color:  white ;">11</div>
-<div id="twelve" style="background-color:  white ;">12</div>
+
 
 </div>
 
